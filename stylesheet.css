@@ -1,0 +1,133 @@
+div {
+border-radius: 5px;
+border: 2px solid black;
+margin-left: 20px;
+padding-left:5px;
+
+}
+
+/* possibly make margin top negative */
+#header {
+z-index: 1;
+position: fixed;
+width: 98%;
+margin-top: -10px;
+background-color: #ccff99;
+margin-bottom: 10px;
+height: 80px;
+font-style: bold;
+text-align:left;
+font-size: 30px;
+font-family:Verdana;
+padding-left:5px;
+margin-left:10px;
+}
+
+#name {
+padding-left:150px
+
+}
+#email {
+font-size:16px;
+margin-right:10px;
+float: right;
+
+}
+
+.right {
+position: relative;
+float: right;
+margin-top: 80px;
+width: 85%;
+height: 1100px;
+margin-bottom: 10px;
+background-color: #e0e0e0;
+padding-left: 10px;
+margin-left: 5px;
+padding-right: 10px;
+}
+#dater {
+
+border: none;
+float: right;
+padding-right:500px;
+display: inline;
+
+}
+
+.left {
+position: relative;
+float: left;
+margin-top: 80px;
+width: 11%;
+height: 1100px;
+margin-bottom: 10px;
+background-color: #b8eeee;
+margin-left:10px;
+}
+
+#footer {
+position: relative;
+height: 80px;
+background-color: #666633;
+clear: both;
+font-family: Verdana, sans-serif;
+font-size: 14px;
+text-align: center;
+margin-left:10px;
+}
+
+.resume {
+border: 1px solid;
+background-color: #61d7a4;
+margin-bottom:10px;
+
+}
+.resume li {
+font-size: 20px;
+
+}
+.gis {
+background-color: #00af64;
+}
+.blogs {
+margin-top: 10px;
+background-color: #3cd792;
+}
+.blog1 {
+margin-top: 5px;
+margin-left: 5px;
+margin-right:5px;
+}
+.blog2 {
+margin-top: 5px;
+margin-bottom: 5px;
+margin-left: 5px;
+margin-right:5px;
+}
+.socialmedia {
+margin-top: 10px;
+background-color: #00af64;
+
+}
+
+#mapheader {
+z-index: 1;
+position: fixed;
+width: 98%;
+margin-top: -10px;
+background-color: #ccff99;
+margin-bottom: 10px;
+height: 100px;
+font-style: bold;
+text-align:center;
+font-size: 30px;
+font-family:Verdana;
+
+margin-left:10px;
+}
+
+.map {
+margin-bottom:8px;
+margin-right:5px;
+}
