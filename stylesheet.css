@@ -18,7 +18,7 @@ div {
 
 .nav {
     position: fixed;
-    margin-top:-10px;
+    margin-top:10px;
     z-index:1;
     background-color:black;
     float:center;
@@ -27,7 +27,10 @@ div {
     padding-right:30px;
     
 }
+.content{
+height:400px;
 
+}
 .nav li {
 	/*Add your CSS here!*/
 	display: inline;

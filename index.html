@@ -4,17 +4,19 @@
         <title>Matthew McKenna Site</title>
         <link type="text/css" rel="stylesheet" href="stylesheet.css"/>
         <link rel="shortcut icon" href="http://matthewmckenna.zzl.org/joystick.ico" />
+        <script type="text/javascript"  src="indescript.js" />
     </head>
     
-<div class="inde">
-<body style="background:#000000">
+
+<body style="background:#000000" id="all">
+    <div class="inde page" id="all" style="display:block;">
     <div class="nav">
-        <ul>
-            <li>All</li>
-            <li>Resumes</li>
-            <li>Maps</li>
-            <li>Blogs</li>
-            <li>Social Media</li>
+        <ul class="tabs">
+            <li id="all" class="selected">All</li>
+            <li id="resu">Resumes</li>
+            <li id="mymaps">Maps</li>
+            <li id="iblog">Blogs</li>
+            <li id="social">Social Media</li>
         </ul>
     
     </div>
@@ -23,7 +25,8 @@
             <a id="inemail" href="mailto:mpmckenna8@gmail.com">mpmckena8@gmail.com</a>
             </h1></p>
     </div>
-    <div class="resume">
+    <div class="content">
+    <div class="resume page" id="resu" style="display:block;">
         <h1>My digital resum&eacute;s:<h1>
             <ul>
                 <a href="http://matthewmckenna.zzl.org/resum&eacute;.html"><li>Resum&eacute; in HTML</li></a>
@@ -31,7 +34,7 @@
                 <a href="http://www.linkedin.com/pub/matthew-mckenna/a/b04/826"><li>LinkedIn Profile</li></a>
             </ul>
     </div>
-    <div class="gis">
+    <div class="gis page" id="mymaps" style="display:block;">
         <h1>Maps Made</h1>
             <a href="http://a.tiles.mapbox.com/v3/mpmckenna8.map-67tcuy92/page.html#14.00/37.7906/-122.4203">
                 <div class="map">
@@ -62,7 +65,7 @@
             </div>
             </a>
         </div>
-        <div class="blogs">
+        <div class="blogs page" id="iblog" style="display:block;">
             <h1>Blogs under my authorship</h1>
             <a href="http://whywhathowdo.blogspot.com/">
             <div class="blog1">
@@ -77,7 +80,7 @@
                 </div>
                 </a>
         </div>
-        <div class="socialmedia">
+        <div class="socialmedia page" id="social" style="display:block;">
             <h1>Social media</h1>
             <h3>To find out more about me feel free to also check out my social media online presence</h3>
             <ul>
@@ -86,7 +89,9 @@
                 <li><h4><a href="http://www.linkedin.com/pub/matthew-mckenna/a/b04/826">LinkedIn</a></h4></li>
                 <li><h4><a href="https://plus.google.com/u/0/106238066315115560285/posts/p/pub">Google+</a></h4></li>
                 <li><h4><a href="https://github.com/mpmckenna8">Github</a></h4></li>
+                <li><h4><a href="https://coderbits.com/mpmckenna8">Coderbits</a></h4></li>
             </ul>
+        </div>
         </div>
 </body>
 </div>
